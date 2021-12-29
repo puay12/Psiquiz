@@ -1,7 +1,8 @@
 # Readme file
 
-Jadi gini, kalau mau pakai readme file, pakai acuan markdown buat formatnya. nanti di github langsung menyesuaikan. 
+Psiquiz adalah platform berbasis website untuk melakukan tes kepribadian dengan dua jenis soal, soal gambar dan soal berbentuk teks tanpa gambar.
 
-    nah iki engko onk kotak e mestine
-
-iki balik lagi
+Proyek ini dibuat menggunakan :
+1.React JS
+2.Meteor JS
+3.Node JS
