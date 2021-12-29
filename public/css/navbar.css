@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a.navbar-brand:hover{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+li{
+    margin-right: 40px;
+}
+
+li.end{
+    margin-right: 0;
+}
+
+li .nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #17181F !important;
+}
+
+hr{
+    display: none;
+    position: absolute;
+    width: 2px;
+    height: 0px;
+    top: 34px;
+    border: 2px solid #6C72CB;
+    border-radius: 5px;
+}
+
+@keyframes underline1{
+    from {
+        width: 2px;
+    }
+    to{
+        width: 78px;
+    }
+}
+
+li .nav-link.one:hover + hr.beranda{
+    display: block;
+    left: 802px;
+    animation: underline1 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes underline2{
+    from {
+        width: 2px;
+    }
+    to{
+        width: 170px;
+    }
+}
+
+li .nav-link.two:hover + hr.cara{
+    display: block;
+    left: 936px;
+    animation: underline2 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes underline3{
+    from {
+        width: 2px;
+    }
+    to{
+        width: 62px;
+    }
+}
+
+li .nav-link.end:hover + hr.login{
+    display: block;
+    left: 1161px;
+    animation: underline3 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes underline4{
+    from {
+        width: 2px;
+    }
+    to{
+        width: 73px;
+    }
+}
+
+li .nav-link.one-2:hover + hr.piltes{
+    display: block;
+    left: 1065px;
+    animation: underline4 0.3s;
+    animation-fill-mode: both;
+}
+
+li.end img.avatar{
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+}
+
+li.end img.avatar:hover{
+    cursor: pointer;
+}
+
+li.end .dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+li.end .dropdown-content{
+    display: none;
+    position: absolute;
+    /* top: 80px;*/
+    right: 1px;
+    padding: 2px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 250px;
+    z-index: 99;
+}
+
+li.end .dropdown-content p{
+    float: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-right: 0;
+    color: #17181F;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+li.end .dropdown-content p.email{
+    padding-top: 0px;
+    font-size: 12px;
+    font-weight: 100;
+    color: cadetblue;
+}
+
+li.end .dropdown-content a{
+    float: none;
+    font-size: 12px;
+    color: #17181F;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(203, 105, 193, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

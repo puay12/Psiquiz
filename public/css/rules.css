@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.rules a.one {
+    margin-top: 5px;
+}   
+
+.rules p.judul{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #17181F;
+}
+
+.rules li a.nav-link.one:hover + hr.beranda{
+    display: block;
+    left: 1059px;
+    animation: underline1 0.3s;
+    animation-fill-mode: both;
+}
+
+.rules img.wave_rule{
+    position: absolute;
+    left: 0;
+    top: 653px;
+}
+
+.rules .rulebox{
+    width: 1046px;
+    height: 334px;
+    background: rgba(108, 114, 203, 0.05);
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 6.6501px 5.32008px rgba(108, 114, 203, 0.0283), 
+                0px 2.76726px 2.21381px rgba(108, 114, 203, 0.017);
+    border-radius: 16px;
+    padding: 52px 52px;
+}
+
+.rules button.btn-main{
+    position: relative;
+    left: 550px;
+    top: 36px;
+}
+
+.rules button.btn-main:hover{
+    background: #da78d0;
+    color: #F8F8FA;
+    top: 30px;
+    transition: all ease 0.3s;
+}

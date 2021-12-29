@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* .soal li a.nav-link.one:hover + hr.beranda{
+    display: block;
+    left: 1059px;
+    animation: underline1 0.3s;
+    animation-fill-mode: both;
+} */
+
+.soal .soal-box{
+    padding: 0;
+    z-index: 0;
+}
+
+.soal img.wave{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.soal-box .card .card-header{
+    padding: 24px !important;
+    background-color: rgba(243, 150, 234, 0.2);
+}
+
+.soal h1.hasil{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.soal .card.hasil{
+    margin-bottom: 32px !important;
+}
+
+.soal .quiz{
+    margin-top: 42px;
+}
+
+.soal.s-teks .hasil-box{
+    margin-top: 0 !important;
+}
+
+.soal li .nav-link.one-2:hover{
+    background-color: rgb(203, 105, 193, 0.8);
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.soal li .nav-link.one-2:hover + hr.piltes{
+    display: none;
+}
+
+.soal.s-gambar img.soal{
+    width: 100%;
+}
+
+.soal-box .card .card-header.hasil{
+    padding: 24px 24px !important;
+    padding-bottom: 0 !important;
+}
+
+.soal.s-gambar .card .card-body.hasil{
+    padding: 24px 24px;
+}
+
+.soal.s-gambar .quiz-box{
+    top: 45%;
+    transform: translateY(-45%);
+}
+
+.soal.soal.s-gambar .hasil-box .row.hasil{
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 12px;
+    margin-bottom: 52px;
+    border-radius: 8px;
+}
+
+.soal.soal.s-gambar .hasil-box .row.hasil:hover{
+    box-shadow: 0px 41.7776px 33.4221px rgba(108, 114, 203, 0.0503), 
+                0px 22.3363px 17.869px rgba(108, 114, 203, 0.0417), 
+                0px 12.5216px 10.0172px rgba(108, 114, 203, 0.034), 
+                0px 6.6501px 5.32008px rgba(108, 114, 203, 0.0283), 
+                0px 2.76726px 2.21381px rgba(108, 114, 203, 0.017);
+}
+
+.soal.s-gambar .hasil-box .card.hasil.gambar,
+.soal.s-gambar .hasil-box img.hasil{
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+}
+
+.soal .hasil-box .btn-main{
+    position: relative;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -1%);
+    width: 200px;
+    border-radius: 8px;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.step-container{
+    position: relative;
+    left: 32px;
+    top: 820px;
+    width: 565px;
+    padding: 0px;
+}
+
+.step{
+    display: flex;
+    align-content: space-between;
+}
+
+.howto{
+    height: 78rem;
+}
+
+.howto img.manbulb{
+    position: absolute;
+    width: 287.82px;
+    height: 560.89px;
+    left: 60px;
+    top: 773px;
+}
+
+.howto img.manbulb:hover{
+    top: 770px;
+}
+
+.howto img.wave_small{
+    position: absolute;
+    width: 449px;
+    height: 350px;
+    right: 0;
+    top: 1045px;
+}
+
+img.line{
+    position: relative;
+    left: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+img.laptop{
+    position: absolute;
+    width: 194px;
+    height: 187.93px;
+    right: 175px;
+    top: 790px;
+}
+
+img.laptop:hover{
+    transform: rotate(-15deg);
+    transition: all ease 0.3s;
+}
+
+p.cara{
+    position: relative;
+    top: 10px;
+    left: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+img.ball{
+    position: relative;
+    width: 49px;
+    height: 49px;
+    left: 0px;
+    cursor: pointer;
+}
+
+@keyframes rotateBall{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(90deg);
+    }
+}
+
+img.ball:hover{
+    animation: rotateBall 0.5s both;
+    cursor:pointer;
+}
+
+img.ball:hover + p.cara{
+    background-color: #ffff;
+    border: 2px solid #E2E2E2;
+    box-sizing: border-box;
+    box-shadow: 0px 22.3363px 17.869px rgba(108, 114, 203, 0.0417), 0px 12.5216px 10.0172px rgba(108, 114, 203, 0.034), 0px 6.6501px 5.32008px rgba(108, 114, 203, 0.0283), 0px 2.76726px 2.21381px rgba(108, 114, 203, 0.017);
+    border-radius: 8px;
+    width: 460px;
+    height: 35px;
+    padding-left: 12px;
+    top: 8px;
+    left: 14px;
+    transition: all ease 0.2s;
+}
+
+.howto a button.btn-main{
+    position: absolute;
+    width: 131px;
+    height: 46px;
+    left: 570px;
+    top: 1213px;
+    filter: drop-shadow(0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275)) 
+            drop-shadow(0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035)) 
+            drop-shadow(0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725)) 
+            drop-shadow(0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802));
+}
+
+.howto a button.btn-main:hover{
+    top: 1209px;
+    transition: all ease 0.3s;
+}
